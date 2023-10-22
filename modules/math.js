@@ -1,5 +1,6 @@
 const math = {};
 
+// Funcion para generar numero randoms
 function getRandomInt (max)  {
     return Math.floor(Math.random()* max);
 }

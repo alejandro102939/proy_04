@@ -9,18 +9,17 @@ const main = async() => {
     let a= (math.getRandomInt(10));
     let b= (math.getRandomInt(10));
 
-    console.log('****************************************'.green);
+    console.log('****************************************'.red);
     console.log('*      '.green, 'Funciones Mateticas'.bgGreen,'           *'.green);
-    console.log('****************************************\n'.green);
-    console.log('****************************************'.cyan);
+    console.log('****************************************\n'.red);
+    console.log('****************************************'.green);
     console.log('*    ' +"numeros generados =>"+" "+a+" , "+b, '       *');
-    console.log('****************************************'.cyan);
-    console.log('*    '.red +" suma ("+a+" + "+b+") =" + math.add(a,b),'                *'.red);
-    console.log('*    '.red +" resta ("+a+" - "+b+") =" + math.substract(a,b),'                *'.red);
-    console.log('*    '.red +" multiplica ("+a+" * "+b+") =" + math.multiply(a,b),'          *'.red);
-    console.log('*   '.red +" divide ("+a+" / "+b+") =" + math.divide(a,b),'*'.red);
+    console.log('****************************************'.green);
+    console.log('*    '.cyan +" resta ("+a+" - "+b+") =" + math.substract(a,b),'                *'.cyan);
+    console.log('*    '.cyan +" multiplica ("+a+" * "+b+") =" + math.multiply(a,b),'          *'.cyan);
+    console.log('*   '.cyan +" divide ("+a+" / "+b+") =" + math.divide(a,b),'*'.cyan);
 
-    console.log('****************************************\n'.cyan);
+    console.log('****************************************\n'.green);
 }
 
 main();
